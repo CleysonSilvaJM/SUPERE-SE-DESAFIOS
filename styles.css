@@ -1,0 +1,169 @@
+:root{
+    --branco-principal: #ffffff;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #000000;
+    --fonte-principal: 'inter';
+    --fonte-destaque: #93c722;
+
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.cabecalho-imagem{
+    height: 72px;
+    padding: 0% 5% 0% 0%;
+
+}
+
+.cabecalho-menu{
+    display: flex;
+    padding: 0% 5% 0% 0%;
+    gap: 32px;
+    
+}
+
+.cabecalho-menu-item{   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+    text-decoration: none;
+    color: #ffffff
+   }
+
+
+
+.container__botaoo {
+    background-color: var(--botao-azul);
+    border-radius: 10px;
+    align-items: center;
+    padding: 1em;
+    color: var(--branco-principal);
+    display:block;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+
+.principal {
+    border-top: 0.5px solid #ffffff;
+    background-image: url("img/Background\ 1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 47% 50%;
+}
+
+.container__botao {
+    background-color: var(--botao-azul);
+    border-radius: 10px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display:block;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+.botao__secundario {
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
+}
+
+.container__aviso {
+    font-size: 24px;
+    color: var(--cinza-secundario)
+}
+
+.container__titulo {
+    font-size: 2,5rem;
+    font-weight: 700;
+}
+
+.container__imagem {
+    margin: 1em 0 2em 0;
+}
+
+.container__caixa {
+    margin: 0 6em;
+}
+
+.cabecalho-imagem{
+    display: block;
+    margin: 0 auto;
+}
+
+.produtoos{
+    border-top: 0.5px solid #ffffff;
+    padding: 24px;
+    text-align: center;
+}
+
+.container__titulo8{
+    color: var(--fonte-destaque);
+    padding: 24px;
+
+}
+
+.bikeoucorrida{
+    background-image: url("img/Background3.png");
+}
+
+.container__imagemquemsomos{
+    border-top: 0.5px solid #ffffff;
+    background-image: url("img/Background3.png");
+}
+
+.container__desafiobike{
+    border-top: 0.5px solid #ffffff;
+}
+
+.container__desafiocorrida{
+    border-top: 0.5px solid #ffffff;
+}
+
+.container__minhaconta{
+    text-align: center;
+    padding: 5% 5% 5% 5%;
+    gap: 32px;
+    
+}
+
+.field{
+    padding: 1% 1% 1% 1%;
+    gap: 32px;
+}
+
+.rodape-cleyson{
+    border-top: 0.5px solid #ffffff;
+    padding: 24px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    
+}
+
